@@ -1,5 +1,5 @@
 # TubesVistdat
-FINAL PROJECT VISDAT - Covid
+FINAL PROJECT VISDAT - Covid19
 
 Anggota Kelompok:
 
