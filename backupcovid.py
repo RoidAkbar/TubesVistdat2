@@ -74,5 +74,5 @@ fig.legend.location = 'top_right'
 fig.legend.click_policy="hide"
 
 # Menampilkan figure
-show(fig)
+curdoc().add_root(fig)
 output_notebook()
