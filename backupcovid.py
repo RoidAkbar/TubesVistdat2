@@ -10,6 +10,7 @@ Original file is located at
 # Data handling
 import pandas as pd
 import numpy as np
+import bokeh
 
 # Bokeh libraries
 from bokeh.io import output_file, output_notebook
@@ -17,7 +18,7 @@ from bokeh.plotting import figure, show
 from bokeh.models import ColumnDataSource
 from bokeh.layouts import row, column, gridplot
 from bokeh.models.widgets import Tabs, Panel
-
+from bokeh.io import show,curdoc
 # Baca dataset
 df_sm = pd.read_csv('covid.csv')
 
