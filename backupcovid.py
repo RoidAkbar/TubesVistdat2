@@ -10,7 +10,7 @@ Original file is located at
 # Data handling
 import pandas as pd
 import numpy as np
-
+import bokeh
 
 # Bokeh libraries
 from bokeh.io import output_file, output_notebook
@@ -24,7 +24,7 @@ from bokeh.io import show,curdoc
 
 print(pd.__version__)
 
-import bokeh
+
 print(bokeh.__version__)
 
 # Baca dataset
